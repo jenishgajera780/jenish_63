@@ -5,11 +5,22 @@
 
 void main(){
 int j,e,n,i=0;
+
 clrscr();
-printf("ENTER ANY NUMBER");
-scanf("%d",&j):
 
+printf("ENTER ANY NUMBER :");
+scanf("%d",&j);
 
+for(e=1;e<=j;e++) 
+
+{
+    n=e+i;
+    i=n;
+}
+
+printf("THE TOTAL IS %d",i);
 
 getch();
+
+    
 }
